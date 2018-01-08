@@ -10,6 +10,11 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "6.3.0",
+    "npm": "~3.10.6",
+    "yarn": "~0.27.5"
+  },
   "dependencies": {
     "autoprefixer": "7.2.4",
     "babel-core": "6.26.0",

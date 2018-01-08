@@ -1,6 +1,5 @@
 const _ = require('lodash');
 const autoprefixer = require('autoprefixer');
-const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
@@ -21,8 +20,7 @@ const webpackConfig = {
   output: {
     path: `${__dirname}/server/public`,
     publicPath: '/',
-    filename: '[name]-[hash:8].js',
-    chunkFilename: '[name]-[hash:8].js',
+    filename: 'index_bundle.js',
   },
   devtool: 'source-map',
   module: {
@@ -63,10 +61,10 @@ const webpackConfig = {
   plugins: [
     HTMLWebpackPluginConfig,
     new ExtractTextPlugin('style.css'),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'vendor',
-      minChunks: ({ resource }) => /node_modules/.test(resource),
-    }),
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'vendor',
+    //   minChunks: ({ resource }) => /node_modules/.test(resource),
+    // }),
   ],
 };
 

@@ -1,11 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div>
-        Hello I am the app!
-      </div>
-    );
-  }
-}
+const App = props => (
+  <div>
+    {console.log(props)}
+    Hello I am the app!
+    <div>
+      {props.children}
+    </div>
+  </div>
+);
+
+App.propTypes = {
+  children: PropTypes.node.isRequired,
+};
+
+export default App;
