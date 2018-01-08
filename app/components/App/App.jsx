@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import TopBar from '../../components/TopBar';
+import styles from './app.scss';
 
-const App = props => (
-  <div>
-    {console.log(props)}
-    Hello I am the app!
-    <div>
-      {props.children}
+const App = ({ children }) => (
+  <div className={styles.maxWrapper}>
+    <TopBar />
+    <div className={styles.main}>
+      {children}
     </div>
+    {/* FOOTER OR SOMETHING HERE*/}
   </div>
 );
 
