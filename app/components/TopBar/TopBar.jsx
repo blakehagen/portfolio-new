@@ -3,8 +3,6 @@ import React from 'react';
 import styles from './topbar.scss';
 
 const TopBar = () => {
-  const profilePic = require('./images/pic_portfolio-compressor.jpg');
-
   return (
     <div className={styles.topBarWrapper}>
       {/*<HeaderImage image={profilePic} />*/}
