@@ -1,16 +1,22 @@
 import React from 'react';
+// import HeaderImage from './HeaderImage';
 import styles from './topbar.scss';
 
-const TopBar = () => (
-  <div className={styles.topBarWrapper}>
-    <div className={styles.box}>
-      Blake M. Hagen
-    </div>
+const TopBar = () => {
+  const profilePic = require('./images/pic_portfolio-compressor.jpg');
 
-    <div className={styles.box}>
-      box2
+  return (
+    <div className={styles.topBarWrapper}>
+      {/*<HeaderImage image={profilePic} />*/}
+      {/*<div className={styles.box}>*/}
+        {/*Blake M. Hagen*/}
+      {/*</div>*/}
+
+      {/*<div className={styles.box}>*/}
+        {/*box2*/}
+      {/*</div>*/}
     </div>
-  </div>
-);
+  );
+};
 
 export default TopBar;

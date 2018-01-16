@@ -1,0 +1,51 @@
+.wrapper {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.imageWrapper {
+  img {
+    margin-top: 10px;
+    width: 280px;
+    height: 280px;
+  }
+}
+
+.textWrapper {
+  margin-left: 40px;
+  width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  cursor: default;
+  color: #494949;
+  .firstName {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 80px;
+  }
+  .lastName {
+    font-weight: 700;
+  }
+  .tag {
+    padding-left: 5px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .description {
+    margin-top: 16px;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    background: #f7f7f7;
+    padding: 7px 14px;
+  }
+  .skillTag {
+    font-weight: 400;
+  }
+}
