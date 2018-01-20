@@ -1,0 +1,15 @@
+.wrapper {
+  border: 1px solid #DCDCDC;
+  width: 300px;
+  height: 195px;
+  margin: 15px;
+  //margin: 0 30px 30px 0;
+  img {
+    width: 100%;
+    //width: 300px;
+    //height: 199px;
+    max-width: 300px;
+    max-height: 195px;
+    overflow: hidden;
+  }
+}

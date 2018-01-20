@@ -1,0 +1,26 @@
+.wrapper {
+  //border: 1px solid blue;
+  padding: 20px 40px 40px 40px;
+}
+
+.mainTitle {
+  padding-left: 5px;
+  padding-bottom: 15px;
+  margin-top: 16px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #494949;
+  cursor: default;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+
+}

@@ -1,15 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router';
 import Intro from './Intro';
+import Projects from './Projects';
 
 const Home = () => (
   <div>
     <Intro />
-    {/*Hello I am the HOME view!*/}
-    {/*<br /><br />*/}
-    {/*<Link to="about" >*/}
-      {/*About*/}
-    {/*</Link>*/}
+    <Projects />
   </div>
 );
 
