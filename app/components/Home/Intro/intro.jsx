@@ -15,11 +15,11 @@ const Intro = () => {
           Blake <span className={styles.lastName}>Hagen</span>
         </div>
         <div className={styles.tag}>
-          Full-stack Web Developer
+          Full-stack Developer
         </div>
 
         <div className={styles.description}>
-          Hi, I'm Blake. I'm a full-stack web developer based out of the Provo, UT area and I enjoy building stuff.
+          Hi, I'm Blake. I'm a full-stack JavaScript developer based out of the Provo, UT area and I enjoy building stuff.
         </div>
         <div className={styles.description}>
           I believe in clean, efficient code, responsive design, and simplicity. I have experience with
@@ -29,7 +29,7 @@ const Intro = () => {
           <span className={styles.skillTag}> Angular 1.x</span>,
           <span className={styles.skillTag}> PostgreSQL</span>,
           <span className={styles.skillTag}> Node</span>,
-          and more. If I don't have experience with something yet, I can learn it.
+          and more.
         </div>
 
       </div>
