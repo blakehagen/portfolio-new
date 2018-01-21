@@ -5,14 +5,16 @@ import styles from './topbar.scss';
 const TopBar = () => {
   return (
     <div className={styles.topBarWrapper}>
-      {/*<HeaderImage image={profilePic} />*/}
-      {/*<div className={styles.box}>*/}
-        {/*Blake M. Hagen*/}
-      {/*</div>*/}
+      <div className={styles.topBarActual}>
+        <div className={styles.box}>
+          something here
+        </div>
 
-      {/*<div className={styles.box}>*/}
-        {/*box2*/}
-      {/*</div>*/}
+        <div className={styles.box}>
+          something here
+        </div>
+
+      </div>
     </div>
   );
 };

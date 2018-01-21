@@ -24,7 +24,7 @@ const Intro = () => {
           Full-stack Developer
         </div>
         <div className={styles.description}>
-          Hi, I'm Blake. I'm a full-stack JavaScript developer based out of the Provo, UT area and I like to build stuff.
+          Hi, I'm Blake. I'm a full-stack JavaScript developer based in the Provo, UT area and I like to build stuff.
           I'm a husband, father, coder, triathlete, sports nut, and lover of faith, food, and fun. Holler at me if you'd like to work on something together.
           <div className={styles.tagContainer}>
             {skillTags}
