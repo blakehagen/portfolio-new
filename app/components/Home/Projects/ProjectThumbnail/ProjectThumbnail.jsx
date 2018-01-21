@@ -1,6 +1,5 @@
-import _ from 'lodash';
 import React from 'react';
-// import prop
+import PropTypes from 'prop-types';
 import styles from './projectThumbnail.scss';
 
 const ProjectThumbnail = ({ name, img }) => (
@@ -11,5 +10,10 @@ const ProjectThumbnail = ({ name, img }) => (
     {/*{img}*/}
   </div>
 );
+
+ProjectThumbnail.propTypes = {
+  name: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+};
 
 export default ProjectThumbnail;
