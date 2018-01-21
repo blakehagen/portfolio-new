@@ -1,50 +1,61 @@
 .wrapper {
-  margin-top: 100px;
+  margin-top: 110px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   padding: 0 40px;
 }
 
 .imageWrapper {
   img {
-    margin-top: 10px;
-    width: 280px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
   }
 }
 
 .textWrapper {
   margin-left: 40px;
-  width: 660px;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 1px;
   cursor: default;
   color: #494949;
   .firstName {
-    font-size: 80px;
+    font-size: 34px;
     font-weight: 100;
-    line-height: 80px;
+    line-height: 34px;
+    margin-left: -1px;
   }
   .lastName {
     font-weight: 700;
   }
   .tag {
-    padding-left: 5px;
-    margin-top: 16px;
-    margin-bottom: 28px;
-    font-size: 22px;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    font-size: 17px;
     font-weight: 400;
   }
   .description {
-    margin-top: 16px;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 100;
     letter-spacing: 0.5px;
-    line-height: 23px;
-    padding: 0 14px 7px 5px;
+    line-height: 22px;
+    padding: 0 14px 7px 0;
   }
+}
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 16px;
   .skillTag {
-    font-weight: 400;
+    background: #368dc0;
+    color: #FFFFFF;
+    padding: 2px 12px;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 10px 10px 0;
   }
 }
