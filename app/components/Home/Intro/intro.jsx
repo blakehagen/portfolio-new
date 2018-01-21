@@ -17,23 +17,20 @@ const Intro = () => {
         <div className={styles.tag}>
           Full-stack Developer
         </div>
-
         <div className={styles.description}>
-          Hi, I'm Blake. I'm a full-stack JavaScript developer based out of the Provo, UT area and I enjoy building stuff.
-        </div>
-        <div className={styles.description}>
-          I believe in clean, efficient code, responsive design, and simplicity. I have experience with
+          Hi, I'm Blake. I'm a full-stack JavaScript developer based out of the Provo, UT area and I like to build stuff.
+          I'm a husband, father, coder, triathlete, sports nut, and lover of faith, food, and fun.
+          <br /> <br />
+          I have experience with
           <span className={styles.skillTag}> React</span>,
           <span className={styles.skillTag}> Webpack</span>,
           <span className={styles.skillTag}> MobX</span>,
           <span className={styles.skillTag}> Angular 1.x</span>,
           <span className={styles.skillTag}> PostgreSQL</span>,
           <span className={styles.skillTag}> Node</span>,
-          and more.
+          and more. Check out my stuff and holler at me if you'd like to work together on something.
         </div>
-
       </div>
-
     </div>
   );
 };
