@@ -2,9 +2,10 @@ const projects = [
   {
     name: 'Mindset Family Therapy',
     thumbImg: 'http://res.cloudinary.com/dewd4pral/image/upload/c_scale,w_800/v1516479014/mft_thumbnail.png',
+    url: '/about',
   },
   {
-    name: 'My Budget Watcher',
+    name: 'Budget Watcher',
     thumbImg: 'http://res.cloudinary.com/dewd4pral/image/upload/c_scale,w_800/v1516481280/budgetapp_thumb.png',
   },
   {
