@@ -25,11 +25,19 @@
   font-size: 14px;
 }
 
+.separator {
+  margin-left: 20px;
+  color: #EBEBEB;
+  font-weight: 100;
+  cursor: default;
+}
+
 .iconContainer {
   display: flex;
   align-items: center;
   height: 100%;
   :global(.fa) {
+    border:1px solid red;
     color: #494949;
     margin-left: 22px;
     font-size: 16px;
@@ -37,5 +45,9 @@
   }
   :global(.fa-envelope-o) {
     color: #2F82B8;
+  }
+  :global(.fa-home) {
+    color: #2F82B8;
+    font-size: 20px;
   }
 }

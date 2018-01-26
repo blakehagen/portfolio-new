@@ -5,7 +5,7 @@ import styles from './topbar.scss';
 const TopBar = () => {
   const testHomeLink = (
     <Link to="/">
-      Home
+      <i className="fa fa-home" aria-hidden="true" />
     </Link>
   );
   const github = <a href="https://github.com/blakehagen" rel="noopener noreferrer" target="_blank"><i className="fa fa-github" aria-hidden="true" /></a>;
@@ -22,10 +22,11 @@ const TopBar = () => {
 
         <div className={styles.iconContainer}>
           {testHomeLink}
+          {contact}
+          <div className={styles.separator}>|</div>
           {github}
           {linkedIn}
           {twitter}
-          {contact}
         </div>
 
       </div>
