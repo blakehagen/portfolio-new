@@ -1,1 +1,1 @@
-export { default } from './intro.jsx';
+export { default } from './Intro.jsx';

@@ -1,7 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router';
 import styles from './topbar.scss';
 
 const TopBar = () => {
+  const testHomeLink = (
+    <Link to="/">
+      Home
+    </Link>
+  );
   const github = <a href="https://github.com/blakehagen" rel="noopener noreferrer" target="_blank"><i className="fa fa-github" aria-hidden="true" /></a>;
   const linkedIn = <a href="https://linkedin.com/in/blakehagen" rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin" aria-hidden="true" /></a>;
   const twitter = <a href="https://twitter.com/blakehagen" rel="noopener noreferrer" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /></a>;
@@ -15,6 +21,7 @@ const TopBar = () => {
         </div>
 
         <div className={styles.iconContainer}>
+          {testHomeLink}
           {github}
           {linkedIn}
           {twitter}
