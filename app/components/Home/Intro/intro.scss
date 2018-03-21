@@ -41,6 +41,22 @@
     letter-spacing: 0.5px;
     line-height: 22px;
     padding: 0 14px 7px 0;
+    a {
+      color: #368dc0;
+      text-decoration: none;
+      &:hover {
+        color: #368dc0;
+        text-decoration: none;
+      }
+      &:visited {
+        color: #368dc0;
+        text-decoration: none;
+      }
+      &:active {
+        color: #368dc0;
+        text-decoration: none;
+      }
+    }
   }
 }
 

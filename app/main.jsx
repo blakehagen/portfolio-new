@@ -5,12 +5,26 @@ import App from '../app/components/App';
 import Home from '../app/components/Home';
 import Contact from '../app/components/Contact';
 import ProjectDetail from '../app/components/ProjectDetail';
-import About from '../app/components/About';
 
 import styles from './main.scss';
 
-function something(nextState, replace) {
-  // Do some validation to check project id...
+function checkProjectRoute(nextState, replace) {
+  const routes = [
+    'mindset-family-therapy',
+    'budget-watcher',
+    'groopscoop',
+    'local-pair',
+    'futbolwatch',
+    'task-checkr',
+    'location-checkr',
+    'blackjack',
+    'fitstantly',
+  ];
+
+  const nextProjectRoute = _.get(nextState, 'params.name', null);
+  if (!_.includes(routes, nextProjectRoute)) {
+    replace('/');
+  }
 }
 
 render(
@@ -18,9 +32,8 @@ render(
     <Router history={browserHistory}>
       <Route path="/" component={App} >
         <IndexRoute component={Home} />
-        <Route path="project/:id" onEnter={something} component={ProjectDetail} />
         <Route path="contact" component={Contact} />
-        <Route path="about" component={About} />
+        <Route path=":name" onEnter={checkProjectRoute} component={ProjectDetail} />
       </Route>
 
       <Route path="*" component={App}>

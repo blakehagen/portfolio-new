@@ -22,7 +22,7 @@ const Projects = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.mainTitle}>
-        Projects
+        Past Projects
       </div>
       <div className={styles.projectsContainer}>
         {projects}

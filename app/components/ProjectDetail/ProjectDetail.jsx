@@ -5,12 +5,11 @@ import styles from './projectDetail.scss';
 import projectData from '../../data/projects';
 
 const ProjectDetail = (props) => {
-  const currentProject = _.find(projectData, { id: _.toNumber(props.params.id) });
+  const currentProject = _.find(projectData, { route: props.params.name });
 
   return (
     <div className={styles.wrapper}>
       {currentProject.name}
-
     </div>
   );
 };
