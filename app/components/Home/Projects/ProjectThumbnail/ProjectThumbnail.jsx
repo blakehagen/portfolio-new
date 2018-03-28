@@ -23,7 +23,7 @@ class ProjectThumbnail extends React.Component {
   render() {
     const overlay = (
       <div className={styles.overlay}>
-        PROJECT DETAILS
+        VIEW PROJECT DETAILS
       </div>
     );
 
