@@ -18,16 +18,18 @@ const Intro = () => {
 
       <div className={styles.textWrapper}>
         <div className={styles.firstName}>
-          Blake <span className={styles.lastName}>Hagen</span>
+          <p>Blake <span className={styles.lastName}>Hagen</span></p>
         </div>
         <div className={styles.tag}>
-          Full-stack Developer
+          <p>Full-stack Developer</p>
         </div>
         <div className={styles.description}>
-          Hi, I'm Blake. I'm a full-stack JavaScript developer based in the Provo, UT area.
-          I'm a husband, father, coder, triathlete, food lover, and sports nut. I currently work as a software engineer at&nbsp;
-          <a href="https://www.grow.com/" target="_blank" rel="noopener noreferrer">Grow.com</a>. Holler at me if you'd like to work on something together.
-          <div className={styles.tagContainer}>
+          <p>
+            Hi, I'm Blake. I'm a full-stack JavaScript developer based in the Provo, UT area.
+            I'm a husband, father, coder, triathlete, food lover, and sports nut. I currently work as a software engineer at&nbsp;
+            <a href="https://www.grow.com/" target="_blank" rel="noopener noreferrer">Grow.com</a>. Holler at me if you'd like to work on something together.
+          </p>
+        <div className={styles.tagContainer}>
             {skillTags}
           </div>
         </div>

@@ -12,7 +12,7 @@
   .topBarActual {
     height: 50px;
     width: 100%;
-    padding: 0 40px;
+    margin: 0 40px;
     border-bottom: 1px solid #EBEBEB;
     display: flex;
     flex-direction: row;
@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   height: 100%;
+  margin-right: 10px;
   :global(.fa) {
     color: #494949;
     margin-left: 22px;
