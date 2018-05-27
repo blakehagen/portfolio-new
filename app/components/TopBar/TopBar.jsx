@@ -22,10 +22,6 @@ const TopBar = () => {
   return (
     <div className={styles.topBarWrapper}>
       <div className={styles.topBarActual}>
-        <div className={styles.left}>
-          {/*Blake Hagen*/}
-        </div>
-
         <div className={styles.iconContainer}>
           {home}
           {contact}
@@ -34,7 +30,6 @@ const TopBar = () => {
           {linkedIn}
           {twitter}
         </div>
-
       </div>
     </div>
   );
